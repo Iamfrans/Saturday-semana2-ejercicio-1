@@ -17,7 +17,12 @@ public class Ejercicio1JavaSaturday {
          Scanner leer = new Scanner (System.in);
          System.out.println("ingrese un valo: ");
         int num = leer.nextInt();
-        
+        int suma = 0;
+        //implemenacion del for para completa el proyecto
+        for(int i =0; i <= num; i=i+2 ){
+            suma = suma + i;  
+        }
+        System.out.print("la suma es " +suma);     
     }
 
 }
