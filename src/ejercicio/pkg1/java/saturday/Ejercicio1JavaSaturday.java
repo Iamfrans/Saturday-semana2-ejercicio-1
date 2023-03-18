@@ -15,3 +15,9 @@ public class Ejercicio1JavaSaturday {
      */
     public static void main(String[] args) {
          Scanner leer = new Scanner (System.in);
+         System.out.println("ingrese un valo: ");
+        int num = leer.nextInt();
+        
+    }
+
+}
